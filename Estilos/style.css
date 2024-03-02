@@ -1,15 +1,60 @@
 @charset "UTF-8";
 
 * {
-	margin: 0px;
-	padding: 0px;
+	font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /*o conteudo fique do tamanho da borda*/
 }
 
-body {
-	background-color: lightblue;
-	color: darkorange;
+/*
+Paleta de Cores
+Verde : #49a09d
+Lilas : #5f2c82 */
+
+body, html {
+	background-color: #5f2c82;
+	height: 100vh;
+	width: 100vw;
+}
+
+main {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+
+section#login {
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden; /*esconder o fluxo que ultrapassa o sistema de borda*/
+	background-color: white;
+	width: 250px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+section#login > div#imagem {
+	display: block;
+	background: #5f2c82 url(../Imagens/predio-pexels.jpg) no-repeat;
+	background-size: cover; /*setar em cover ficou melhor*/
+	background-position: left bottom;
+	height: 200px;
+}
+
+section#login > div#formulario {
+	display: block;
+	padding: 10px;
+}
+
+section#login h1 {
 	text-align: center;
 }
+
+
 
 
 
