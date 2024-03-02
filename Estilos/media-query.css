@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	body {
+		background-image: linear-gradient(to top, #49a09d, #5f2c82);
+	}
+
+	section#login {
+		width: 90vw; /*90% do view width lateral quando virar*/
+	}
+
+	section#login > div#imagem {
+		float: left;
+		width: 30%;
+		height: 100%;
+		/*quando voce estiver no div#imagem o float vai ser left para jogar a imagem pra esquerda, o width 
+		foi setado 30% que vai ser o quanto que vai aparecer da imagem, e o height tambem a mesma logica*/
+	}
+	section#login > div#formulario {
+		float: right;
+		width: 70%;
+		/*esse eh o div do formulario colocando o float para o outro lado e mostrando que o width vai cobrir 
+		os outros 70%*/
+	}
+}
+
+@media screen and (min-width:992px) {
+	body {
+		background-image: linear-gradient(to top, #49a09d, #5f2c82);
+	}
+	section#login {
+		width: 950px;
+	}
+	section#login > div#imagem {
+		float: left;
+		width: 40%;
+		height: 100%;
+	}
+	section#login > div#formulario {
+		float: right;
+		width: 60%;
+	}
+}
