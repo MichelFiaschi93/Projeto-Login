@@ -6,7 +6,8 @@
 	}
 
 	section#login {
-		width: 90vw; /*90% do view width lateral quando virar*/
+		height: 90vh;
+		 /*90% do view width lateral quando virar*/
 	}
 
 	section#login > div#imagem {
