@@ -2,11 +2,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	body {
-		background-image: linear-gradient(to top, #49a09d, #5f2c82);
+		background-image: linear-gradient(to top, rgb(123, 138, 145), rgb(99, 90, 78));
 	}
 
 	section#login {
-		height: 90vh;
+		width: 90vw;
 		 /*90% do view width lateral quando virar*/
 	}
 
@@ -27,7 +27,7 @@
 
 @media screen and (min-width:992px) {
 	body {
-		background-image: linear-gradient(to top, #49a09d, #5f2c82);
+		background-image: linear-gradient(to top, rgb(123, 138, 145), rgb(99, 90, 78));
 	}
 	section#login {
 		width: 90vw;
