@@ -67,6 +67,20 @@ form > div.campo {
 	box-shadow: inset -1px 1px 3px 0px darkgray;
 }
 
+div.campo > span{
+	font-size: 3em;
+	transform: translateY(-2px);
+	color: white;
+}
+
+div.campo > input {
+	width: calc(100% - 2.8em);
+	height: 110%;
+	border-radius: 5px;
+	transform: translateY(-13px);
+
+}
+
 form > input.botao {
 	display: block;
 	width: 100%;
