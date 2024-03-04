@@ -7,6 +7,7 @@
 
 	section#login {
 		width: 90vw;
+		height: 280px;
 		 /*90% do view width lateral quando virar*/
 	}
 
@@ -31,6 +32,7 @@
 	}
 	section#login {
 		width: 90vw;
+		height: 300px;
 	}
 	section#login > div#imagem {
 		float: right;

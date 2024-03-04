@@ -74,12 +74,18 @@ div.campo > span{
 }
 
 div.campo > input {
-	width: calc(100% - 2.8em);
+	width: calc(100% - 2.8em); /*faz um calculo par ter o tamanho*/
 	height: 110%;
 	border-radius: 5px;
-	transform: translateY(-13px);
+	transform: translateY(-13px); /*para configurar a altura do campo em y*/
+	background-color: lightgray;
 
 }
+
+div.campo > input:focus-within {
+	background-color: white;
+} /*esse comando faz o campo de marcacao de escrita ficar com a configuracao desse comando
+quando clicado*/
 
 form > input.botao {
 	display: block;
